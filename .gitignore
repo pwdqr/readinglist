@@ -13,7 +13,7 @@ gradle-app.setting
 #!gradle-wrapper.jar
 # Cache of project
 .gradletasknamecache
-gradle/wrapper/gradle-wrapper.properties
+#gradle/wrapper/gradle-wrapper.properties
 
 
 ### STS ###
