@@ -30,10 +30,6 @@ import com.study.readlinglist.domain.Reader;
 @SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc // security() 포함
 public class ReadinglistApplicationTests {
-
-//	@Test
-//	public void contextLoads() {
-//	}
 	
 	private static final Logger logger = LoggerFactory.getLogger(ReadinglistApplicationTests.class);
 
