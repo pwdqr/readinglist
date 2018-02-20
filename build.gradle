@@ -33,6 +33,10 @@ dependencies {
 	testCompile('org.seleniumhq.selenium:selenium-java')
 }
 
+test {
+	exclude '**/ServerWebTests.class'
+}
+
 // heroku
 task stage(dependsOn: ['build']) {
 }
