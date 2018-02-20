@@ -1,4 +1,4 @@
-package com.study.readlinglist.config;
+package com.study.readinglist.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import com.study.readlinglist.repository.ReaderRepository;
+import com.study.readinglist.repository.ReaderRepository;
 
 /*
  * 스프링 시큐리티의 자동 구성을 오버라이드할 때는 

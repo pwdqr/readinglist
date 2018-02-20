@@ -1,4 +1,4 @@
-package com.study.readlinglist.domain;
+package com.study.readinglist.domain;
 
 import java.util.Arrays;
 import java.util.Collection;

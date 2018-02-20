@@ -1,8 +1,8 @@
-package com.study.readlinglist.repository;
+package com.study.readinglist.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.study.readlinglist.domain.Reader;
+import com.study.readinglist.domain.Reader;
 
 /*
  * ReadingRepository와 마찬가지로 ReaderRepository 또한 추가로 구현 코드를

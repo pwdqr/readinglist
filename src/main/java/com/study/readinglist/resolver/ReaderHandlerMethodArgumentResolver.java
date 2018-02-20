@@ -1,4 +1,4 @@
-package com.study.readlinglist.resolver;
+package com.study.readinglist.resolver;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.security.core.Authentication;
@@ -7,7 +7,7 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
-import com.study.readlinglist.domain.Reader;
+import com.study.readinglist.domain.Reader;
 
 /*
  * HandlerMethodArgumentResolver 인터페이스는 컨트롤러에서 파라미터를 바인딩해주는 역할을 한다.

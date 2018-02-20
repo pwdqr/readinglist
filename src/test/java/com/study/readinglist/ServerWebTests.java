@@ -1,4 +1,4 @@
-package com.study.readlinglist;
+package com.study.readinglist;
 
 import static org.junit.Assert.assertEquals;
 

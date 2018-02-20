@@ -1,4 +1,4 @@
-package com.study.readlinglist;
+package com.study.readinglist;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.samePropertyValuesAs;
@@ -24,7 +24,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.study.readlinglist.domain.Reader;
+import com.study.readinglist.domain.Reader;
 
 @RunWith(SpringRunner.class) // SpringRunner = SpringJUnit4ClassRunner
 @SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)

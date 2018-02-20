@@ -1,4 +1,4 @@
-package com.study.readlinglist.controller;
+package com.study.readinglist.controller;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.study.readlinglist.domain.Book;
-import com.study.readlinglist.domain.Reader;
-import com.study.readlinglist.repository.ReadingListRepository;
+import com.study.readinglist.domain.Book;
+import com.study.readinglist.domain.Reader;
+import com.study.readinglist.repository.ReadingListRepository;
 
 @Controller
 @RequestMapping("/")

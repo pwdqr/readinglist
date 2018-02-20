@@ -1,4 +1,4 @@
-package com.study.readlinglist;
+package com.study.readinglist;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.study.readlinglist.resolver.ReaderHandlerMethodArgumentResolver;
+import com.study.readinglist.resolver.ReaderHandlerMethodArgumentResolver;
 
 @SpringBootApplication
 public class ReadinglistApplication extends WebMvcConfigurerAdapter{
