@@ -34,5 +34,5 @@ dependencies {
 }
 
 // heroku
-task stage(dependsOn: ['build'] {
+task stage(dependsOn: ['build']) {
 }
