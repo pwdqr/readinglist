@@ -22,7 +22,7 @@ war {
 	baseName='readinglist'
 	version='1.0.0-SNAPSHOT'
 	archiveName='readinglist.war'
-)
+}
 
 repositories {
 	mavenCentral()
