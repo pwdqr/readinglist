@@ -30,7 +30,7 @@ public class ReadingListController {
 			model.addAttribute("reader", reader);
 		}
 		
-		return "/readingList";
+		return "readingList";
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)

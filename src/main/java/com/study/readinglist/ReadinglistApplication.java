@@ -20,7 +20,7 @@ public class ReadinglistApplication extends WebMvcConfigurerAdapter{
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
 		// login 경로를 login 템플릿으로 매핑.
-		registry.addViewController("/login").setViewName("/login");
+		registry.addViewController("/login").setViewName("login");
 	}
 
 	@Override
