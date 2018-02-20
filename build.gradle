@@ -42,7 +42,8 @@ dependencies {
 }
 
 test {
-	exclude '**/ServerWebTests.class'
+	//exclude '**/ServerWebTests.class'
+	exclude 'com/study/readinglist/**'
 }
 
 // heroku
